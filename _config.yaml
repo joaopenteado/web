@@ -1,0 +1,38 @@
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: en
+    values:
+      lang: en-US
+  - scope:
+      path: ja
+    values:
+      lang: ja-JP
+  - scope:
+      path: pt
+    values:
+      lang: pt-BR
+  - scope:
+      path: ru
+    values:
+      lang: ru-RU
+
+encoding: utf-8
+
+exclude:
+  - README.md
+  - .gitignore
+
+plugins:
+  - jekyll-optional-front-matter
+
+webrick:
+  headers:
+    Content-Security-Policy: default-src 'self' https://static.joaopenteado.com/ https://static.cloudflareinsights.com/ https://ajax.cloudflare.com
+    X-Content-Type-Options: nosniff
+    X-Frame-Options: deny
+    X-XSS-Protection: 1; mode=block
+

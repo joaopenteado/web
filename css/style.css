@@ -1,0 +1,130 @@
+:root {
+    --palette-lightest: #f5f7f9;
+    --palette-lighter: #c7cbd1;
+    --palette-light: #647080;
+    --palette-default: #333e4d;
+    --palette-dark: #1F2C3D;
+    --palette-darker: #152237;
+    --palette-darkest: #0e1725;
+    background-color: var(--palette-darker);
+    color: var(--palette-light);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+body {
+    margin: 0 auto;
+    width: 95%;
+}
+
+footer {
+    bottom: 1.25rem;
+    margin-top: 1.25rem;
+    position:fixed;
+    width: 95%;
+}
+
+footer nav {
+    margin-bottom: 0.5rem;
+}
+
+footer nav a {
+    color: var(--palette-light);
+    margin: 0 .65em;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+}
+
+i {
+    color: var(--palette-light);
+    display: inline-block;
+    font-family: "fontello";
+    font-size: 2.5rem;
+    font-style: normal;
+    margin: .7rem .4rem;
+}
+
+i:hover {
+    color: var(--palette-darkest);
+    cursor: pointer;
+}
+
+img {
+    border-radius: 50%;
+    border: .25rem solid var(--palette-light);
+    display: block;
+    margin: 1.25rem auto 0 auto;
+    width: 15rem;
+}
+
+nav {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem auto 0 auto;
+}
+
+p {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.disabled {
+    color: #1F2C3D;
+}
+
+.disabled:hover {
+    cursor: not-allowed !important;
+    color: #1F2C3D;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://static.joaopenteado.com/webfonts/open-sans-v17-latin-regular.eot');
+  src: local('Open Sans Regular'), local('OpenSans-Regular'),
+       url('https://static.joaopenteado.com/webfonts/open-sans-v17-latin-regular.eot?#iefix') format('embedded-opentype'),
+       url('https://static.joaopenteado.com/webfonts/open-sans-v17-latin-regular.woff2') format('woff2'),
+       url('https://static.joaopenteado.com/webfonts/open-sans-v17-latin-regular.woff') format('woff'),
+       url('https://static.joaopenteado.com/webfonts/open-sans-v17-latin-regular.ttf') format('truetype'),
+       url('https://static.joaopenteado.com/webfonts/open-sans-v17-latin-regular.svg#OpenSans') format('svg');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://static.joaopenteado.com/webfonts/roboto-v20-latin-regular.eot');
+  src: local('Roboto'), local('Roboto-Regular'),
+       url('https://static.joaopenteado.com/webfonts/roboto-v20-latin-regular.eot?#iefix') format('embedded-opentype'),
+       url('https://static.joaopenteado.com/webfonts/roboto-v20-latin-regular.woff2') format('woff2'),
+       url('https://static.joaopenteado.com/webfonts/roboto-v20-latin-regular.woff') format('woff'),
+       url('https://static.joaopenteado.com/webfonts/roboto-v20-latin-regular.ttf') format('truetype'),
+       url('https://static.joaopenteado.com/webfonts/roboto-v20-latin-regular.svg#Roboto') format('svg');
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: url('https://static.joaopenteado.com/webfonts/fontello.eot?53246784');
+  src: url('https://static.joaopenteado.com/webfonts/fontello.eot?53246784#iefix') format('embedded-opentype'),
+       url('https://static.joaopenteado.com/webfonts/fontello.woff2?53246784') format('woff2'),
+       url('https://static.joaopenteado.com/webfonts/fontello.woff?53246784') format('woff'),
+       url('https://static.joaopenteado.com/webfonts/fontello.ttf?53246784') format('truetype'),
+       url('https://static.joaopenteado.com/webfonts/fontello.svg?53246784#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i.twitter:before { content: '\f099'; }
+i.github:before { content: '\f09b'; }
+i.email:before { content: '\f0e0'; }
+i.instagram:before { content: '\f16d'; }
+i.facebook:before { content: '\f230'; }
+i.gitlab:before { content: '\f296'; }
+i.linkedin:before { content: '\f30c'; }

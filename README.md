@@ -1,7 +1,6 @@
 # Personal website
 
-This is my personal website hosted on [GitHub Pages](https://pages.github.com/) and distributed through
-[Cloudflare](https://cloudflare.com).
+This is my personal website hosted on [GitHub Pages](https://pages.github.com/) and distributed through [Cloudflare](https://cloudflare.com).
 
 No frameworks nor bootstraping tools were used to build it.
 Everything was handicrafted with HTML and CSS. Although it's important to 

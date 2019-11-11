@@ -28,11 +28,3 @@ exclude:
 
 plugins:
   - jekyll-optional-front-matter
-
-webrick:
-  headers:
-    Content-Security-Policy: default-src 'self' https://static.joaopenteado.com/ https://static.cloudflareinsights.com/ https://ajax.cloudflare.com
-    X-Content-Type-Options: nosniff
-    X-Frame-Options: deny
-    X-XSS-Protection: 1; mode=block
-

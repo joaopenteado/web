@@ -13,13 +13,13 @@
 }
 
 body {
-    margin: 0 auto;
-    width: 95%;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     height: 100vh;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 95%;
 }
 
 footer {
@@ -85,6 +85,11 @@ p {
     cursor: not-allowed !important;
     color: #1F2C3D;
 }
+
+.selected {
+    font-weight: bold;
+}
+
 
 @font-face {
   font-family: 'Open Sans';

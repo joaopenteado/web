@@ -3,6 +3,7 @@ defaults:
       path: ""
     values:
       layout: default
+      lang: en-US
   - scope:
       path: en
     values:

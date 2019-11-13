@@ -1,3 +1,10 @@
+/*
+
+This Cloudflare worker redirects the user navigating to the root of the website
+to his/her preferred language, based on the Accept-Language header.
+
+*/
+
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request));
 })
@@ -8,13 +15,7 @@ async function handleRequest(request) {
 
   // Parse Accept-Language header
   let langHeader = request.headers.get('Accept-Language');
-  if (langHeader == null) {
-
-    // No header found -> redirect to English website
-    return Response.redirect("https://joaopenteado.com/en", 307);
-
-  } else {
-
+  if (!!langHeader) {
     // Header found, let's parse it
     let parsedHeader = [];
     langHeader.replace(/\s/g, '').split(',').forEach(
@@ -35,13 +36,12 @@ async function handleRequest(request) {
       if (langIndex > -1) {
 
         // Found a matching language!
-        return Response.redirect("https://joaopenteado.com/" + supportedLanguages[langIndex], 307);
+        return Response.redirect("https://joaopenteado.com/" + supportedLanguages[langIndex] + '/', 307);
      
       }
     }
+  }
 
     // No matching language...defaults to English
-    return Response.redirect("https://joaopenteado.com/en", 307);
-
-  }
+    return Response.redirect("https://joaopenteado.com/en/", 307);
 }

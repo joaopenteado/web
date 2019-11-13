@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://joaopenteado.com/en</loc>
+    <loc>https://joaopenteado.com/en/</loc>
     <xhtml:link 
                rel="alternate"
                hreflang="en"
-               href="https://joaopenteado.com/en"/>
+               href="https://joaopenteado.com/en/"/>
     <xhtml:link 
                rel="alternate"
                hreflang="ja"
-               href="https://joaopenteado.com/ja"/>
+               href="https://joaopenteado.com/ja/"/>
     <xhtml:link 
                rel="alternate"
                hreflang="pt"
-               href="https://joaopenteado.com/pt"/>
+               href="https://joaopenteado.com/pt/"/>
     <xhtml:link 
                rel="alternate"
                hreflang="ru"
-               href="https://joaopenteado.com/ru"/>
+               href="https://joaopenteado.com/ru/"/>
   </url>
 </urlset>

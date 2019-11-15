@@ -3,6 +3,8 @@
 This Cloudflare worker redirects the user navigating to the root of the website
 to his/her preferred language, based on the Accept-Language header.
 
+Compliant with ISO 639-2 and RFC 3282
+
 */
 
 const securityHeaders = [
@@ -26,7 +28,7 @@ const supportedLanguages = ['en', 'ja', 'pt', 'ru'];
 async function handleRequest(request) {
 
   // Parse Accept-Language header
-  let langHeader = request.headers.get('Accept-Language');
+  let langHeader = request.headers.get('Accept-Language').toLowerCase();
   if (!!langHeader) {
     // Header found, let's parse it
     let parsedHeader = [];

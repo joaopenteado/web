@@ -1,0 +1,4 @@
+Contact: mailto:security@joaopenteado.com
+Encryption: https://joaopenteado.com/pgp.txt
+Preferred-Languages: en, pt, ja
+Canonical: https://joaopenteado.com/.well-known/security.txt

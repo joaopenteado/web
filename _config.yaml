@@ -5,10 +5,6 @@ defaults:
       layout: default
       lang: en-US
   - scope:
-      path: en
-    values:
-      lang: en-US
-  - scope:
       path: ja
     values:
       lang: ja-JP
@@ -16,16 +12,14 @@ defaults:
       path: pt
     values:
       lang: pt-BR
-  - scope:
-      path: ru
-    values:
-      lang: ru-RU
 
 encoding: utf-8
 
 exclude:
-  - README.md
+  - .github
   - .gitignore
+  - CNAME
+  - README.md
 
 plugins:
   - jekyll-optional-front-matter

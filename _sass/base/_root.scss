@@ -1,0 +1,11 @@
+@import "utils/functions";
+
+:root {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: tone(dark);
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}

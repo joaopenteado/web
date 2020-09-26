@@ -1,0 +1,13 @@
+_includes:
+  header.html:
+    name: João Penteado
+
+    nav:
+      home: Home
+      blog: Blog
+      about: About
+      contact: Contact
+
+404.md:
+  not_found: Page not found
+  not_found_text: The page you've requested does not exist or is unavailable at this time.

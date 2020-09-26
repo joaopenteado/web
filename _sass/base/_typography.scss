@@ -1,0 +1,24 @@
+@import "utils/functions";
+
+a {
+    color: tone(lightest);
+    font-weight: bold;
+}
+
+a[href] {
+    color: tone(light);
+    text-decoration: none;
+
+    &:hover {
+        color: tone(lighter);
+    }
+}
+
+
+code {
+    background-color: tone(base);
+    padding: .1rem;
+    margin: .1rem;
+    width: 100%;
+    border-radius: .2rem;
+}

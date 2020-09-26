@@ -1,0 +1,5 @@
+@import "variables";
+
+@function tone($tone: base) {
+    @return map-get($colorscheme, $tone);
+}

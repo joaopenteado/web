@@ -1,0 +1,17 @@
+{% assign i18n = site.data.i18n[page.lang]._includes["header.html"] %}
+
+<header>
+    <img src="/assets/images/me.webp">
+    <h1>{{ i18n.name }}</h1>
+
+    <nav>
+        {% for node in i18n.nav %}
+            {% if node[0] == "blog" %}
+                {% assign lang = "en" %}
+            {% else %}
+                {% assign lang = page.lang %}
+            {% endif %}
+            <a href="/{{ lang }}/{{ node[0] }}">{{ node[1] }}</a>
+        {% endfor %}
+    </nav>
+</header>

@@ -7,6 +7,9 @@ Compliant with ISO 639-2 and RFC 3282
 
 */
 
+// Redirect /about
+
+
 const securityHeaders = [
   ["Access-Control-Allow-Methods", "GET"],
   ["Access-Control-Allow-Origin", "https://joaopenteado.com"],
@@ -14,8 +17,8 @@ const securityHeaders = [
   ["Cross-Origin-Resource-Policy", "same-origin"],
   ["Feature-Policy", "ambient-light-sensor 'none'; autoplay 'none'; accelerometer 'none'; battery 'none'; camera 'none'; display-capture 'none'; document-domain 'none'; encrypted-media 'none'; execution-while-not-rendered 'none'; execution-while-out-of-viewport 'none'; fullscreen 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; picture-in-picture 'none'; speaker 'none'; sync-xhr 'none'; usb 'none'; wake-lock 'none'; webauthn 'none'; vr 'none'; xr-spatial-tracking 'none'"],
   ["Referrer-Policy", "strict-origin-when-cross-origin"],
+  ["X-Content-Type-Options", "nosniff"],
   ["X-Frame-Options", "SAMEORIGIN"],
-  ["X-Permitted-Cross-Domain-Policies", "none"],
   ["X-Xss-Protection", "1; mode=block"]
 ]
 
@@ -23,7 +26,7 @@ addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request));
 })
 
-const supportedLanguages = ['en', 'ja', 'pt', 'ru'];
+const supportedLanguages = ['en', 'ja', 'pt'];
 
 async function handleRequest(request) {
 
@@ -58,7 +61,7 @@ async function handleRequest(request) {
         }
 
         return response
-     
+
       }
     }
   }

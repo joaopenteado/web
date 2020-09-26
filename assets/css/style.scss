@@ -1,0 +1,32 @@
+---
+---
+
+@import "base/reset";
+@import "base/root";
+@import "base/body";
+@import "base/typography";
+
+@import "utils/variables";
+.fa {
+    font-size: 1rem;
+    padding: .15rem;
+    margin-left: .6rem;
+    width: 1.3rem;
+
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: tone(light);
+    color: tone(darkest);
+
+    &:hover {
+        background-color: tone(lighter);
+
+    }
+}
+
+
+@import "layouts/header";
+@import "layouts/main";
+@import "layouts/footer";
+

@@ -1,0 +1,35 @@
+@import "utils/functions";
+
+body {
+
+    // Flex
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    // Dimensions
+    width: 95%;
+    max-width: 45rem;
+    min-height: 100vh;
+
+    // Margin & padding
+    margin: 0 auto;
+    padding: .3rem 0;
+
+    & > * {
+
+        // Dimensions
+        width: 100%;
+        margin: .3rem;
+
+        // Colors
+        color: tone(lighter);
+        background-color: tone(darkest);
+
+        // Box styling
+        border-radius: .4rem;
+        background-color: tone(darkest);
+        padding: 1rem 1.5rem;
+    }
+}

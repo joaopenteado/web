@@ -1,0 +1,13 @@
+_includes:
+  header.html:
+    name: ペンテアド・ジョアン
+
+    nav:
+      home: ホーム
+      blog: ブログ
+      about: プロフィール
+      contact: お問い合わせ
+
+404.md:
+  not_found: お探しのページは見つかりませんでした
+  not_found_text: ご所望のページは、存在しない、または利用できない状況にございます。

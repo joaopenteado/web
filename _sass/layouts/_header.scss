@@ -1,0 +1,39 @@
+@import "utils/functions";
+
+header {
+    max-height: 4.2rem;
+    position: sticky;
+    top: 0;
+    border-bottom: .1rem solid tone(dark);
+
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+        user-select: none;
+
+    h1 {
+        color: tone(lighter);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-left: .8rem;
+    }
+
+    img {
+        border: .18rem solid tone(light);
+        border-radius: 50%;
+        height: 3rem;
+    }
+
+    nav {
+        margin-left: auto;
+
+        a {
+            text-transform: lowercase;
+
+            &:not(:first-of-type) {
+                margin-left: .625rem;
+            }
+        }
+    }
+}

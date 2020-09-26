@@ -1,0 +1,13 @@
+_includes:
+  header.html:
+    name: João Penteado
+
+    nav:
+      home: Início
+      blog: Blog
+      about: Sobre
+      contact: Contato
+
+404.md:
+  not_found: Página não encontrada
+  not_found_text: A página procurada não existe ou não está disponível nesse momento.

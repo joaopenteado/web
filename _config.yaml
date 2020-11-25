@@ -21,8 +21,12 @@ exclude:
   - CNAME
   - README.md
 
+url: https://joaopenteado.com
+
 sass:
     style: compressed
+
+permalink: :path/:basename
 
 plugins:
   - jekyll-optional-front-matter

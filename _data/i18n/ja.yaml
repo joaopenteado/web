@@ -1,10 +1,16 @@
 _includes:
+  footer.html:
+    language: 日本語
+
+  head.html:
+    name: ペンテアド・ジョアン
+
   header.html:
     name: ペンテアド・ジョアン
 
     nav:
-      home: ホーム
-      blog: ブログ
+      "": ホーム
+      # blog: ブログ # Available only in English
       about: プロフィール
       contact: お問い合わせ
 

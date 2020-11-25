@@ -6,12 +6,7 @@
 
     <nav>
         {% for node in i18n.nav %}
-            {% if node[0] == "blog" %}
-                {% assign lang = "en" %}
-            {% else %}
-                {% assign lang = page.lang %}
-            {% endif %}
-            <a href="/{{ lang }}/{{ node[0] }}">{{ node[1] }}</a>
+            <a href="/{{ page.lang }}/{{ node[0] }}">{{ node[1] }}</a>
         {% endfor %}
     </nav>
 </header>

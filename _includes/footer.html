@@ -1,8 +1,12 @@
 <footer>
   <nav>
-    <a {% if page.lang != 'en' %} href="/en" {% else %} class="selected" {% endif %}>english</a>
-    <a {% if page.lang != 'pt' %} href="/pt" {% else %} class="selected" {% endif %}>português</a>
-    <a {% if page.lang != 'ja' %} href="/ja" {% else %} class="selected" {% endif %}>日本語</a>
+    <!-- Could be dynamically generated from site.data.i18n but it wouldn't be ordered as desired -->
+    {% assign path_len_m4 = page.url | size | minus: 4 %}
+    {% assign path = page.url | slice: 4, path_len_m4 %}
+    {% assign footer_langs = "en,pt,ja" | split: ',' %}
+    {% for lang in footer_langs %}
+      <a {% if page.lang != lang %} href="/{{ lang }}/{{ path }}" {% else %} class="selected" {% endif %}>{{ site.data.i18n[lang]._includes["footer.html"].language }}</a>
+    {% endfor %}
   </nav>
   <p>© {{ 'now' | date: '%Y' }}</p>
 </footer>

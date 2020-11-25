@@ -1,10 +1,16 @@
 _includes:
+  footer.html:
+    language: english
+
+  head.html:
+    name: João Penteado
+
   header.html:
     name: João Penteado
 
     nav:
-      home: Home
-      blog: Blog
+      "": Home
+      ../blog/: Blog
       about: About
       contact: Contact
 

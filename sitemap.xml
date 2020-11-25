@@ -3,21 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://joaopenteado.com/en/</loc>
-    <xhtml:link 
+    <xhtml:link
                rel="alternate"
                hreflang="en"
                href="https://joaopenteado.com/en/"/>
-    <xhtml:link 
+    <xhtml:link
                rel="alternate"
                hreflang="ja"
                href="https://joaopenteado.com/ja/"/>
-    <xhtml:link 
+    <xhtml:link
                rel="alternate"
                hreflang="pt"
                href="https://joaopenteado.com/pt/"/>
-    <xhtml:link 
-               rel="alternate"
-               hreflang="ru"
-               href="https://joaopenteado.com/ru/"/>
   </url>
 </urlset>

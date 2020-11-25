@@ -32,3 +32,22 @@ This website uses a custom stripped-down version of [Font Awesome](https://fonta
 
 ### TODO
 - Contact form
+- Fix Cf workers
+- Fix 404 for multi language pages
+- Make dynamic sitemap
+- Favicon
+- Fonts/Icons
+- Contact form
+- Texts
+- README Update
+- Remove live.js
+- Twitter metatag (@joaopenteado) creator
+- RSS/ATOM feed
+- Remove 3rd-pary CDNs on head.html
+- Add CSP http-equiv
+- Minify
+- get filename dynamically
+- links are folders !!! check hrefs
+- Width css -> collaspse menu
+- insert content-language header
+- contact input max len

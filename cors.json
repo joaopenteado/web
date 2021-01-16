@@ -1,0 +1,7 @@
+[
+    {
+      "origin": ["https://joaopenteado.com"],
+      "method": ["GET"],
+      "maxAgeSeconds": 86400
+    }
+]

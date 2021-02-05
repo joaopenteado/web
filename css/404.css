@@ -39,24 +39,24 @@ a:any-link {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('https://static.joaopenteado.com.storage.googleapis.com/webfonts/open-sans-v17-latin-regular.eot');
+  src: url('https://storage.googleapis.com/static.joaopenteado.com/webfonts/open-sans-v17-latin-regular.eot');
   src: local('Open Sans Regular'), local('OpenSans-Regular'),
-    url('https://static.joaopenteado.com.storage.googleapis.com/webfonts/open-sans-v17-latin-regular.eot?#iefix') format('embedded-opentype'),
-    url('https://static.joaopenteado.com.storage.googleapis.com/webfonts/open-sans-v17-latin-regular.woff2') format('woff2'),
-    url('https://static.joaopenteado.com.storage.googleapis.com/webfonts/open-sans-v17-latin-regular.woff') format('woff'),
-    url('https://static.joaopenteado.com.storage.googleapis.com/webfonts/open-sans-v17-latin-regular.ttf') format('truetype'),
-    url('https://static.joaopenteado.com.storage.googleapis.com/webfonts/open-sans-v17-latin-regular.svg#OpenSans') format('svg');
+    url('https://storage.googleapis.com/static.joaopenteado.com/webfonts/open-sans-v17-latin-regular.eot?#iefix') format('embedded-opentype'),
+    url('https://storage.googleapis.com/static.joaopenteado.com/webfonts/open-sans-v17-latin-regular.woff2') format('woff2'),
+    url('https://storage.googleapis.com/static.joaopenteado.com/webfonts/open-sans-v17-latin-regular.woff') format('woff'),
+    url('https://storage.googleapis.com/static.joaopenteado.com/webfonts/open-sans-v17-latin-regular.ttf') format('truetype'),
+    url('https://storage.googleapis.com/static.joaopenteado.com/webfonts/open-sans-v17-latin-regular.svg#OpenSans') format('svg');
 }
 
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: url('https://static.joaopenteado.com.storage.googleapis.com/webfonts/roboto-v20-latin-regular.eot');
+  src: url('https://storage.googleapis.com/static.joaopenteado.com/webfonts/roboto-v20-latin-regular.eot');
   src: local('Roboto'), local('Roboto-Regular'),
-    url('https://static.joaopenteado.com.storage.googleapis.com/webfonts/roboto-v20-latin-regular.eot?#iefix') format('embedded-opentype'),
-    url('https://static.joaopenteado.com.storage.googleapis.com/webfonts/roboto-v20-latin-regular.woff2') format('woff2'),
-    url('https://static.joaopenteado.com.storage.googleapis.com/webfonts/roboto-v20-latin-regular.woff') format('woff'),
-    url('https://static.joaopenteado.com.storage.googleapis.com/webfonts/roboto-v20-latin-regular.ttf') format('truetype'),
-    url('https://static.joaopenteado.com.storage.googleapis.com/webfonts/roboto-v20-latin-regular.svg#Roboto') format('svg');
+    url('https://storage.googleapis.com/static.joaopenteado.com/webfonts/roboto-v20-latin-regular.eot?#iefix') format('embedded-opentype'),
+    url('https://storage.googleapis.com/static.joaopenteado.com/webfonts/roboto-v20-latin-regular.woff2') format('woff2'),
+    url('https://storage.googleapis.com/static.joaopenteado.com/webfonts/roboto-v20-latin-regular.woff') format('woff'),
+    url('https://storage.googleapis.com/static.joaopenteado.com/webfonts/roboto-v20-latin-regular.ttf') format('truetype'),
+    url('https://storage.googleapis.com/static.joaopenteado.com/webfonts/roboto-v20-latin-regular.svg#Roboto') format('svg');
 }

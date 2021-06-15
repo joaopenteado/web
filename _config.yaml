@@ -16,10 +16,6 @@ defaults:
       path: pt
     values:
       lang: pt-BR
-  - scope:
-      path: ru
-    values:
-      lang: ru-RU
 
 encoding: utf-8
 

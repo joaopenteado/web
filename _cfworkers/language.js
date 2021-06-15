@@ -23,7 +23,7 @@ addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request));
 })
 
-const supportedLanguages = ['en', 'ja', 'pt', 'ru'];
+const supportedLanguages = ['en', 'ja', 'pt'];
 
 async function handleRequest(request) {
 

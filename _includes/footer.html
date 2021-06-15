@@ -2,8 +2,7 @@
   <nav>
     <a {% if page.lang != 'en-US' %} href="/en" {% else %} class="selected" {% endif %}>English</a>
     <a {% if page.lang != 'pt-BR' %} href="/pt" {% else %} class="selected" {% endif %}>Português</a>
-    <a {% if page.lang != 'ru-RU' %} href="/ru" {% else %} class="selected" {% endif %}>Русский</a>
     <a {% if page.lang != 'ja-JP' %} href="/ja" {% else %} class="selected" {% endif %}>日本語</a>
   </nav>
-  <p>© 2020</p>
+  <p>© 2018 - {{ "now" | date: "%Y-%m-%d %H:%M" }}</p>
 </footer>

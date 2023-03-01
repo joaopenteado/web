@@ -129,10 +129,6 @@ p {
   font-style: normal;
 }
 
-i.twitter:before { content: '\f099'; }
 i.github:before { content: '\f09b'; }
 i.email:before { content: '\f0e0'; }
-i.instagram:before { content: '\f16d'; }
-i.facebook:before { content: '\f230'; }
-i.gitlab:before { content: '\f296'; }
 i.linkedin:before { content: '\f30c'; }
